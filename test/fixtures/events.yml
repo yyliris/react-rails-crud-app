@@ -2,16 +2,18 @@
 
 one:
   event_type: MyString
-  event_date: 2019-01-28
+  event_date: 2019-06-28
   title: MyText
   speaker: MyString
   host: MyString
   published: false
+  creator: 
 
 two:
   event_type: MyString
-  event_date: 2019-01-28
+  event_date: 2019-06-28
   title: MyText
   speaker: MyString
   host: MyString
   published: false
+  creator: 

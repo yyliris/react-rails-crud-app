@@ -11,4 +11,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :events, only: %i[index show create destroy update]
   end
+  namespace :userapi do
+    resources :users, only: %i[index show signin signup]
+  end
 end
