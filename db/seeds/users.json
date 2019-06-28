@@ -1,6 +1,7 @@
 [
     {
       "username": "iris",
-      "password": "iris"
+      "password": "iris",
+      "password_confirmation": "iris"
     }
 ]

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_28_111113) do
+ActiveRecord::Schema.define(version: 2019_06_28_111115) do
 
   create_table "events", force: :cascade do |t|
     t.string "event_type"
@@ -27,9 +27,10 @@ ActiveRecord::Schema.define(version: 2019_06_28_111113) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "password_digest"
+    t.index ["username"], name: "index_users_on_username", unique: true
   end
 
 end
