@@ -6,7 +6,7 @@ class Api::SessionsController < ApplicationController
             user = User.find_by(id: session[:current_user_id])
             respond_with User, json: user
         else
-            render json: {:session_UID => session[:current_user_id]}
+            render json: {:session => session[:current_user_id]}
         end
     end
   
