@@ -5,7 +5,8 @@
     "title": "A Social-Neuroscience Perspective on Empathy",
     "speaker": "Albert von Bezold, Jules Cotard, Marian Diamond",
     "host": "Alcmaeon of Croton",
-    "published": true
+    "published": true,
+    "user_id": 1
   },
   {
     "event_type": "Colloquium",
@@ -13,7 +14,8 @@
     "title": "The Neuroscience of Restorative Justice",
     "speaker": "Albert Einstein",
     "host": "Stephen Hawking",
-    "published": true
+    "published": true,
+    "user_id": 1
   },
   {
     "event_type": "Symposium",
@@ -21,7 +23,8 @@
     "title": "Cognitive Development Theory",
     "speaker": "Francis Glisson, Ragnar Granit, Nils-Åke Hillarp",
     "host": "David H. Hubel, Herbert Jasper",
-    "published": true
+    "published": true,
+    "user_id": 1
   },
   {
     "event_type": "Symposium",
@@ -29,7 +32,8 @@
     "title": "The Neuroscience of Moral Decision Making in Ethics",
     "speaker": "Michel Jouvet, Bernard Katz, Emil Kraepelin",
     "host": "Lawrence C. Katz",
-    "published": true
+    "published": true,
+    "user_id": 1
   },
   {
     "event_type": "Symposium",
@@ -37,7 +41,8 @@
     "title": "Ovariectomy Effect on Hippocampus Spatial Memory",
     "speaker": "Rita Levi-Montalcini, John C. Lilly, Horace Winchell Magoun",
     "host": "Mondino de Luzzi, Walle Nauta",
-    "published": true
+    "published": true,
+    "user_id": 1
   },
   {
     "event_type": "Colloquium",
@@ -45,6 +50,7 @@
     "title": "Left Brain Vs Right Brain how does this impact learning",
     "speaker": "Aristides Leão",
     "host": "Louis Lapicque",
-    "published": true
+    "published": true,
+    "user_id": 1
   }
 ]

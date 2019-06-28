@@ -64,4 +64,7 @@ gem 'responders'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'webpacker', '>= 4.0.x'
 
-gem 'bcrypt',         '3.1.13'
+gem 'bcrypt',         '3.1.12'
+gem "graphql"
+
+gem 'graphiql-rails', group: :development

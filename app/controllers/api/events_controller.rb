@@ -36,7 +36,7 @@ class Api::EventsController < ApplicationController
       :speaker,
       :host,
       :published,
-      :creator
+      :user_id
     )
   end
 end

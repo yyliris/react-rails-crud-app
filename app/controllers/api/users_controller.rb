@@ -25,28 +25,14 @@ class Api::UsersController < ApplicationController
     respond_with User, json: user
   end
 
-  def signup
-    @user = User.new(params[:user])
-    if @user.save
-      flash[:notice] = "You signed up successfully"
-      flash[:color]= "valid"
-    else
-      flash[:notice] = "Form is invalid"
-      flash[:color]= "invalid"
-    end
-    render "signup"
-  end
-
-  def signin
-    respond_with create
-  end
   private
 
   def user_params
     params.require(:user).permit(
       :id,
       :username,
-      :password
+      :password,
+      :password_confirmation
     )
   end
 end

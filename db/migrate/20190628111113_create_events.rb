@@ -7,7 +7,7 @@ class CreateEvents < ActiveRecord::Migration[5.2]
       t.string :speaker
       t.string :host
       t.boolean :published
-      t.belongs_to :user, index: true
+      t.references :user
 
       t.timestamps
     end
